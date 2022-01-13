@@ -1,3 +1,6 @@
+p{
+    color: gray;
+}
 .container {
     margin-top: 15px;
     margin-bottom: 70px;
@@ -24,6 +27,8 @@
     background: #fff;
 }
 
+
+
 .card-footer button {
     margin-bottom: 10px;
 }
@@ -36,4 +41,29 @@
 
 .product-content {
     margin-bottom: 20px;
+}
+
+.categories h3, .categories h5 {
+    text-align: center;
+    
+}
+
+.categories-item {
+    padding: 20px;
+}
+
+.beauty-section {
+    margin-bottom: 20px;
+}
+
+.categories-border {
+    border-bottom: 10px solid #FFBB24;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+footer p {
+    font-size: 12px;
+    color: gray;
+    text-align: center;
 }
