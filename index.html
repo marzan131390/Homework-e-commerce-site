@@ -39,10 +39,72 @@
           </nav>
     </div>
 
+    <div class="container slider"> 
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active bg-warning" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" class="bg-warning"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" class="bg-warning"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-5 d-flex align-items-center"> 
+                <div> 
+                  <h2>Mackbok Pro</h2>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam quis voluptas nihil obcaecati, adipisci expedita, soluta, nulla pariatur officiis sed quod. Voluptatibus est laboriosam quaerat aspernatur. Saepe ex rerum quaerat.</p>
+                  <button class=" btn btn-dark">Buy Now →</button>
+                </div>
+              </div>
+              <div class="col-md-7"> 
+                <img src="images/hot-gadgets/banner-products/product-1.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-5 d-flex align-items-center"> 
+                <div> 
+                  <h2>Amajon Echo</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam animi nisi iusto ea expedita assumenda debitis totam eius provident. Temporibus reprehenderit laudantium praesentium, amet inventore quam commodi velit molestias minima.</p>
+                  <button class=" btn btn-dark">Buy Now →</button>
+                </div>
+              </div>
+              <div class="col-md-7"> 
+                <img src="images/hot-gadgets/banner-products/slider-1.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-5 d-flex align-items-center"> 
+                <div> 
+                  <h2>JBL Xtream Poratable Speacker</h2>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam quis voluptas nihil obcaecati, adipisci expedita, soluta, nulla pariatur officiis sed quod. Voluptatibu</p>
+                  <button class=" btn btn-dark">Buy Now →</button>
+                </div>
+              </div>
+              <div class="col-md-7"> 
+                <img src="images/hot-gadgets/banner-products/slider-3.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
     <div class="container" id="product"> 
-        <div class="d-flex justify-content-between"> 
+        <div class="d-flex justify-content-between product-content"> 
             <h2>SmartPhones</h2>
-            <h4 class="text-warning">See All</h4>
+            <h5><a href="#" class="text-warning">See All</a></h5>
         </div>
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
@@ -50,8 +112,10 @@
                 <img src="images/hot-gadgets/phone/phone-2.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">IPhone-11 Pro</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, quibusdam facere? Incidunt at exercitationem labore harum numquam maxime veritatis con</p>
-                    <h5>$1100</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, quibusdam facere? Incidunt at exercitationem labore harum numquam maxime veritatis con</p>    
+                </div>
+                <div class="card-footer"> 
+                  <h5>$1100</h5>
                 </div>
                 <div class="card-footer"> 
                     <button class=" btn btn-dark">Buy Now →</button>
@@ -63,8 +127,10 @@
                 <img src="images/hot-gadgets/phone/phone-3.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Samsung Glaxy Note 10+</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eveniet ad rerum itaque! Esse voluptatem porro officia saepe nobis. Rem perspiciatis odit quasi labore numquam dignissimos explicabo provident ducimus? Architecto!</p>
-                    <h5>$800</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eveniet ad rerum itaque! Esse voluptatem porro officia saepe nobis. Rem perspiciatis odit quasi labore numquam dignissimos explicabo provident ducimus? Architecto!</p>          
+                </div>
+                <div class="card-footer"> 
+                  <h5>$800</h5>
                 </div>
                 <div class="card-footer"> 
                     <button class=" btn btn-dark">Buy Now →</button>
@@ -76,8 +142,10 @@
                 <img src="images/hot-gadgets/phone/phone-1.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Redme Note 8 Pro</h5>
-                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit a commodi cum voluptatum totam eos facere reprehenderit, suscipit dolorum libero dolore dicta </p>
-                    <h5>$900</h5>
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit a commodi cum voluptatum totam eos facere reprehenderit, suscipit dolorum libero dolore dicta </p>                    
+                </div>
+                <div class="card-footer"> 
+                  <h5>$900</h5>
                 </div>
                 <div class="card-footer"> 
                     <button class=" btn btn-dark">Buy Now →</button>

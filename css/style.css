@@ -4,9 +4,15 @@
     
 }
 
+.container a {
+    text-decoration: none;
+}
+
 .top-navbar {
     background-color: #fff !important;
 }
+
+
 
 .card-body  {
     text-align: center;
@@ -18,3 +24,16 @@
     background: #fff;
 }
 
+.card-footer button {
+    margin-bottom: 10px;
+}
+
+.card {
+    border: none;
+    box-shadow: 5px 5px 5px lightgray;
+    border-radius: 10px;
+}
+
+.product-content {
+    margin-bottom: 20px;
+}
