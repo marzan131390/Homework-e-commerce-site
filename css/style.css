@@ -1,0 +1,20 @@
+.container {
+    margin-top: 15px;
+    margin-bottom: 70px;
+    
+}
+
+.top-navbar {
+    background-color: #fff !important;
+}
+
+.card-body  {
+    text-align: center;
+}
+
+.card-footer {
+    text-align: center;
+    border: none;
+    background: #fff;
+}
+
